@@ -43,7 +43,7 @@ public class SauceDemoChrome extends Base {
 
         driver.findElement(By.cssSelector(".btn_action.cart_button")).click();
         Assert.assertTrue(driver.findElement(By.cssSelector(".pony_express")).isDisplayed());
-
+        //kom
 
 
     }
